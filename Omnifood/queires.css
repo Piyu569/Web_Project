@@ -1,0 +1,150 @@
+/*Big tablet to 1200px (widths smaller that the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+/*small tablet to big tablet : from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+   body{ font-size: 18px ;}
+   section {padding: 60px 0; }
+   .long-copy{
+    width: 80%;
+    margin-left: 10%;
+}
+   .co{ margin-top: 10px;}
+   .co  :last-child{  
+    margin-top: 10px;
+  }
+   .works-step{ margin-top: 40px;}
+   .works-step:nth-last-of-type(im){
+    margin-bottom: 80px;}
+    .app-screen{ width: 58%;}
+    .city-features{font-size: 90%;}
+    .Plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .section-form{
+        width: 80%;
+    }
+    .co  :first-child{
+        text-align: center;
+        
+        }
+    .section-steps{
+        text-align: center;
+    }
+    .app-screen{
+        margin-left:0;
+        width: 40%;
+    }
+    .colu > blockquote{
+        padding:2%;
+        line-height: 100%;
+        position: relative;
+        margin-top: 0px;
+        color: #ffff;
+        font-size: 90%;
+    }
+    .colu > blockquote:before{
+        content: "\201C";
+        font-size: 250%;
+        display: block;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+       }
+       .colu cite{
+        font-size: 90%;
+        margin-top: 10px;
+       }
+    
+    
+}
+/*small phones to small tablets: from 481 to 767*/
+@media only screen and (max-width:767px){
+    body{ font-size: 16px;}
+    .section{ padding: 30px 0;}
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    }
+    .col{
+        width: 100%;
+    }
+    
+    .co{
+        width:100%;
+    }
+    .col{
+        width: 100%;
+    }
+    .column123{
+        width: 100%;
+    }
+    .colu{
+        width: 100%;
+    }
+    .column2{
+            width: 100%;
+        }
+    .column3{
+            width: 100%;
+        }
+    .main-nav{
+        display: none;
+    }
+    .h1{
+        font-size: 180%;
+    }
+    .h2{
+        font-size: 150%;
+    }
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #navbar {
+        display: none;
+    }
+    .simple{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        display: block;
+        text-align:right ;
+        
+    }
+    
+    .works-step{ margin-top: 20px;}
+    .works-step:nth-last-of-type(im){
+     margin-bottom: 20px;}
+     .works-step div{
+        height: 40px;
+        width: 40px;
+        padding: 8px;
+        margin-right: 15px;
+        font-size: 120%;
+    
+    }
+    .section-form{
+        width:50%;
+    }
+    
+}
+
+/*Small phones:from 0 to 480px*/
+@media only screen and (max-width:480px){
+      section{padding:25px 0;}
+      .contact-form{
+          width:100%
+      }
+}
